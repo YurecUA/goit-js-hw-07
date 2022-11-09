@@ -9,6 +9,7 @@ const makeImagesMarkup = function (galleryItems) {
   			<a class="gallery__link" 
 				href="${original}">
     			<img
+				loading="lazy"
       			class="gallery__image"
       			src="${preview}"
       			data-source="${original}"
